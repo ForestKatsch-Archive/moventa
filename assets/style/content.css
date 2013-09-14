@@ -1,0 +1,21 @@
+
+article {
+    color: #ddd;
+    margin: 2em 20%;
+    width: 60%;
+    text-shadow: 0 -1px rgba(0,0,0,0.5);
+}
+
+article header {
+    margin: 1em 0;
+    padding: 0 1em;
+}
+
+article header h1 {
+    color: #ddd;
+    font-size: 150%;
+}
+
+article p {
+    font-size: 90%;
+}
