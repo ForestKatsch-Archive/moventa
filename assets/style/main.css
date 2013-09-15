@@ -5,6 +5,8 @@
 @import "header.css";
 
 @import "content.css";
+@import "upload.css";
+@import "input.css";
 
 html, body {
     height: 100%;

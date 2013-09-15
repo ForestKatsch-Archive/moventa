@@ -1,9 +1,10 @@
 <!doctype html>
 <html>
   <head>
-    <title>movente</title>
+    <title>moventa</title>
     <link rel="stylesheet" href="assets/style/main.css" />
     <script src="assets/scripts/jquery.js"></script>
+    <script src="assets/scripts/jquery.filedrop.js"></script>
     <script src="assets/scripts/util.js"></script>
     <script src="assets/scripts/prop.js"></script>
     <script src="assets/scripts/ui.js"></script>
@@ -11,10 +12,35 @@
   </head>
   <body>
     <header id="header">
-      <a id="home" href="index.html"><h1 title="that's Latin for &lsquo;motion&rsquo;">movente</h1></a>
+      <a id="home" href="index.html" class="active">
+	<h1 title="that's Latin for &lsquo;motion&rsquo;">moventa</h1>
+      </a>
       <nav>
-	<a href="about.html" title="About movente">About</a>
+	<a href="about.html" title="About moventa">About</a>
       </nav>
     </header>
+    <div id="upload">
+      <header>
+	<h1>Upload video</h1>
+      </header>
+      <form method="POST" enctype="multipart/form-data" accept-charset="utf-8" action="upload.php">
+	<table>
+	  <tr class="video-name">
+	    <td class="label">Video name</td>
+	    <td class="input"><input type="text" name="video-name" /></td>
+	  </tr>
+	  <tr class="video-files">
+	    <td class="label">Files</td>
+	    <td class="input">
+	      <input type="file" id="video-files" name="video-files" />
+	    </td>
+	  </tr>
+	  <tr class="video-upload">
+	    <td class="label"></td>
+	    <td class="input"><input type="submit" id="upload-button" value="Upload" class="button" /></td>
+	  </tr>
+	</table>
+      </form>
+    </div>
   </body>
 </html>

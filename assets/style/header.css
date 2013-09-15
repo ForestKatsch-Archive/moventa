@@ -4,7 +4,7 @@
 #header {
     background-color: #ddd;
     box-shadow: 0 -100px 2px 100px rgba(0,0,0,0.5);
-    color: #ddd;
+    color: #fff;
     text-shadow: 0 -1px rgba(0,0,0,0.25);
 }
 
@@ -14,10 +14,18 @@
 }
 
 #header a#home {
-    background: url("../images/left-strip.svg") right center no-repeat;
+    background: url("../images/header-inactive.svg") right center no-repeat;
+    color: #555;
     display: inline-block;
     font-weight: bold;
     padding-right: 30px;
+    text-shadow: 0 1px rgba(255,255,255,0.5);
+}
+
+#header a#home.active {
+    background: url("../images/header-active.svg") right center no-repeat;
+    color: #fff;
+    text-shadow: 0 -1px rgba(0,0,0,0.25);
 }
 
 #header h2 {

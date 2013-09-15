@@ -1,0 +1,59 @@
+
+#upload {
+    color: #ddd;
+    margin: 1em auto;
+    text-shadow: 0 1px rgba(0,0,0,0.5);
+    width: 30em;
+}
+
+#upload h1 {
+    font-size: 150%;
+    margin: 0 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#upload table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+#upload td {
+    padding: 3px 0;
+    vertical-align: middle;
+    width: 1%;
+}
+
+#upload .label {
+    padding-right: 1em;
+    text-align: right;
+}
+
+#upload .input {
+    padding-left: 1em;
+}
+
+#upload .input>* {
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    color:    #999;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    color:    #999;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color:    #999;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color:    #999;
+    opacity: 1;
+}

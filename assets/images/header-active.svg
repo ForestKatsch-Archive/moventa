@@ -9,18 +9,17 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="2048"
+   width="1024"
    height="128"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="right-strip.svg">
+   sodipodi:docname="left-strip.svg">
   <defs
      id="defs4">
     <filter
        inkscape:collect="always"
-       id="filter3833"
-       color-interpolation-filters="sRGB">
+       id="filter3833">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="3.36"
@@ -34,9 +33,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="885.47541"
-     inkscape:cy="-134.64071"
+     inkscape:zoom="0.7"
+     inkscape:cx="1165.7826"
+     inkscape:cy="102.86528"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -77,14 +76,15 @@
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
        id="path3827"
-       d="m -1472,-160 2512,0 -64,256 -2448,0"
-       style="fill:#000000;fill-opacity:0.25098039;stroke:none;filter:url(#filter3833)"
-       transform="matrix(-1,0,0,1,1024,1020.3622)" />
+       d="m -48,-160 1088,0 -64,256 -1024,0"
+       style="fill:#000000;fill-opacity:0.50196081;stroke:none;filter:url(#filter3833)"
+       transform="translate(0,1020.3622)" />
     <path
        style="fill:#e28b00;fill-opacity:1;stroke:none"
-       d="m 2048,924.3622 -2048,0 32,128 2016,0"
+       d="M 0,-96 1024,-96 992,32 0,32"
        id="path3825"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc"
+       transform="translate(0,1020.3622)" />
   </g>
 </svg>

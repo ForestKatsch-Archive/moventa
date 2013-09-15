@@ -8,7 +8,7 @@
 }
 
 #header nav a {
-    color: #888;
+    color: #555;
     display: inline-block;
     text-decoration: none;
     text-shadow: 0 1px rgba(255,255,255,0.5);
@@ -27,9 +27,20 @@
     box-shadow: inset 100px 1px 5px -100px rgba(0,0,0,0.5), inset -100px 1px 5px -100px rgba(0,0,0,0.5);
 }
 
-#header nav a#active {
+#header nav a.active {
     background-color: #e28b00;
     box-shadow: inset 100px 1px 3px -100px rgba(0,0,0,0.25), inset -100px 1px 3px -100px rgba(0,0,0,0.25);
     color: #fff;
     text-shadow: 0 -1px rgba(0,0,0,0.3);
+}
+
+#header nav a.active:after {
+    border: 8px solid transparent;
+    border-top-color: #e28b00;
+    content: "";
+    display: block;
+    left: 50%;
+    margin-left: 8px;
+    position: absolute;
+    bottom: -16px;
 }
